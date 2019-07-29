@@ -152,3 +152,27 @@ table {
   left: 10%;
   font-size: 3.5rem;
 }
+.smithjones {
+  max-width: 1000px;
+}
+.smithjones .architects {
+  display: flex;
+  margin: 2%;
+}
+.smithjones .architects .sjinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2% 2% 5%;
+}
+.smithjones .architects .sjinfo h1 {
+  font-weight: bold;
+  margin: 2% 2% 2% 0%;
+}
+.smithjones .architects .sjinfo p {
+  margin-bottom: 4%;
+}
+.smithjones .architects .sjinfo button {
+  width: 25%;
+  padding: 2% 3%;
+  background-color: white;
+}
