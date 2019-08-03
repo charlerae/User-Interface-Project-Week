@@ -447,3 +447,33 @@ html body {
   margin-top: 8%;
   padding: 0% 29%;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #898b8b;
+  margin-bottom: 3%;
+  padding: 2%;
+  width: 96%;
+}
+.footer .grayfoot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .grayfoot .interested {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+.footer .grayfoot .cities {
+  display: flex;
+}
+.footer .grayfoot .cities .florida p {
+  font-size: 1rem;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.5em;
+  color: white;
+}
