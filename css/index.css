@@ -1,1 +1,479 @@
-/* Should be empty until you compile your LESS */
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Your Code Goes Here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+html body {
+  width: 1000px;
+  margin-left: 15%;
+}
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c2c4c5;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1% 3%;
+  width: 94%;
+}
+.topContent h2 {
+  margin-top: 1%;
+  font-weight: bolder;
+  font-stretch: expanded;
+}
+.topContent .menu nav div {
+  text-decoration: none;
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 4px 0;
+}
+.banner {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.banner h1 {
+  position: absolute;
+  bottom: 8%;
+  left: 10%;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+.smithjones {
+  max-width: 100%;
+}
+.smithjones .architects {
+  display: flex;
+  margin-left: 7%;
+  margin-top: 6%;
+  width: 85%;
+  justify-content: space-between;
+}
+.smithjones .architects .sjinfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  padding-right: 2%;
+}
+.smithjones .architects .sjinfo h1 {
+  font-weight: bold;
+  margin: 10% 2% 2% 0%;
+}
+.smithjones .architects .sjinfo p {
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.smithjones .architects .sjinfo button {
+  width: 25%;
+  padding: 2% 3%;
+  background-color: transparent;
+}
+.smithjones .designblock {
+  display: flex;
+  margin-left: 7%;
+  margin-top: 8%;
+  width: 85%;
+}
+.smithjones .designblock .designs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.smithjones .designblock .designs h1 {
+  font-weight: bold;
+  margin: 10% 2% 2% 0%;
+}
+.smithjones .designblock .designs p {
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.smithjones .designblock .designs button {
+  width: 27%;
+  padding: 2% 3%;
+  background-color: transparent;
+}
+.projects {
+  max-width: 100%;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+}
+.projects .villas {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 7%;
+}
+.projects .villas h1 {
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+.projects .villas .villaImg {
+  width: 85%;
+  position: relative;
+}
+.projects .villas .villaImg h2 {
+  position: absolute;
+  bottom: -13%;
+  right: -18%;
+  font-size: 2.5rem;
+  padding: 4% 5%;
+  background-color: #d3d8da;
+}
+.projects .villas p {
+  margin-bottom: 4%;
+  margin-top: 8%;
+  padding: 0% 29%;
+}
+.projects .skirts {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 7%;
+}
+.projects .skirts h1 {
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+.projects .skirts .outskirtImg {
+  width: 85%;
+  position: relative;
+}
+.projects .skirts .outskirtImg h2 {
+  position: absolute;
+  bottom: -13%;
+  right: -18%;
+  font-size: 2.5rem;
+  padding: 4% 5%;
+  background-color: #d3d8da;
+}
+.projects .skirts p {
+  margin-bottom: 4%;
+  margin-top: 8%;
+  padding: 0% 29%;
+}
+.projects .blocks {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 7%;
+}
+.projects .blocks h1 {
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+.projects .blocks .blocksImg {
+  width: 85%;
+  position: relative;
+}
+.projects .blocks .blocksImg h2 {
+  position: absolute;
+  bottom: -13%;
+  right: -18%;
+  font-size: 2.5rem;
+  padding: 4% 5%;
+  background-color: #d3d8da;
+}
+.projects .blocks p {
+  margin-bottom: 4%;
+  margin-top: 8%;
+  padding: 0% 29%;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #898b8b;
+  margin-bottom: 3%;
+  padding: 2%;
+  width: 96%;
+}
+.footer .grayfoot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .grayfoot .interested {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+.footer .grayfoot .cities {
+  display: flex;
+}
+.footer .grayfoot .cities .florida p {
+  font-size: 1rem;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.5em;
+  color: white;
+}
